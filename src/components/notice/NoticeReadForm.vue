@@ -18,7 +18,7 @@
           <span class="line2"/>
         </v-col>
         <v-col cols="12">
-          <div id="viewer"  style="min-height: 300px; border: 1px solid #adadad;"></div>
+          <div id="viewer"  style="min-height: 300px; border-top: 2px solid #000000;"></div>
         </v-col>
       </v-row>
     </div>

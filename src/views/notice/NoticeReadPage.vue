@@ -1,7 +1,7 @@
 <template>
     <div>
         <h1 class="notice-head">공지사항</h1>
-        <div style="border: solid 1px #444; margin-bottom: 2rem;">
+        <div style="margin-bottom: 2rem;">
             <NoticeReadForm v-if="notice" :notice="notice" />
             <div>
                 <button v-if="memberInfo && memberInfo.role === 'MANAGER'" class="notice-button"
